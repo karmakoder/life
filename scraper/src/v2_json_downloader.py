@@ -42,11 +42,17 @@ headers = {'User-Agent': user_agent, }
 list_of_life_files = {
     "oxygen": {
         "url": "https://life_data.coronasafe.network/oxygen.json"
+    },"hospital": {
+        "url": "https://life_data.coronasafe.network/hospital.json"
     }
     # Idea is there will be more keys for vaccine, ambulance ...
-    #,"ambulance": {
-    #    "url": "https://life_data.coronasafe.network/ambulance.json"
-    #}
+#     ,"ambulance": {
+#        "url": "https://life_data.coronasafe.network/ambulance.json"
+#     },"helpline": {
+#         "url": "https://life_data.coronasafe.network/helpline.json"
+#     },"medicine": {
+#         "url": "https://life_data.coronasafe.network/medicine.json"
+#     }
 }
 
 for life_file_key in list_of_life_files:
